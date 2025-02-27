@@ -101,7 +101,7 @@ def identify(url):
     print("This is the data frame -------------->",df)
 
     # Load the model
-    model = tf.keras.models.load_model("/Users/mubeen/Documents/Chengdu_Real/Chengdu80/saved_model")
+    model = tf.keras.models.load_model("/Users/hussain/Documents/Chengdu_Real/Chengdu80/saved_model")
 
     # Preprocess the data
     X_final, y_final = preprocessing(df)
